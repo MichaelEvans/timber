@@ -11,6 +11,8 @@ dependencies {
   compile deps.lintapi
   compile deps.lintchecks
 
+  testCompile deps.linttest
+
   lintChecks files(jar)
 }
 
